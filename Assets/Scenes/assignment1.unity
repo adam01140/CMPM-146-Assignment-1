@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -432, y: 220}
+  m_AnchoredPosition: {x: -319, y: 266}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200820899
@@ -956,7 +956,7 @@ MonoBehaviour:
   max_rotational_velocity: 75
   speed: 0
   desired_speed: 0
-  max_speed: 25
+  max_speed: 20
   linear_acceleration: 20
   rotational_acceleration: 255
   holonomic: 0
@@ -1069,6 +1069,13 @@ MonoBehaviour:
   kinematic: {fileID: 0}
   path: []
   label: {fileID: 200820899}
+  arrivalRadius: 10
+  stopRadius: 100
+  angleThreshold: 45
+  maxTurnRate: 5
+  waypointRadius: 50
+  lookAheadDistance: 200
+  sharpTurnAngle: 50
 --- !u!114 &1006009576
 MonoBehaviour:
   m_ObjectHideFlags: 0
