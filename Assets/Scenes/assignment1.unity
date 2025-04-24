@@ -1069,8 +1069,8 @@ MonoBehaviour:
   kinematic: {fileID: 0}
   path: []
   label: {fileID: 200820899}
-  arrivalRadius: 10
-  stopRadius: 100
+  arrivalRadius: 20
+  stopRadius: 10
   angleThreshold: 45
   maxTurnRate: 5
   waypointRadius: 50
